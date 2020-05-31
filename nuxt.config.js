@@ -34,7 +34,17 @@ export default {
   */
   buildModules: [
     '@nuxtjs/style-resources',
+    '@nuxtjs/fontawesome',
   ],
+
+  fontawesome: {
+    component: 'fa',
+    icons: {
+      solid: ['faEnvelope','faLock','faSignInAlt'],
+      brands: ['faGoogle', 'faLinkedin']
+    }
+  },
+
   styleResources: {
     // your settings here
     scss: ['~assets/scss/main.scss']
