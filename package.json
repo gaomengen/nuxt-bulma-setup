@@ -2,7 +2,7 @@
   "name": "nuxt-bulma-setup",
   "version": "1.0.0",
   "description": "How to set up Bulma in Nuxt.js",
-  "author": "morgan gao",
+  "author": "@gaomengen",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -11,16 +11,17 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.28",
-    "@nuxtjs/bulma": "^1.2.1",
-    "nuxt": "^2.0.0"
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "@nuxtjs/bulma": "^1.3.0",
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.13.0",
-    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@nuxtjs/fontawesome": "^1.1.2",
-    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/style-resources": "^1.2.1",
     "node-sass": "^4.14.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.1.1"
   }
 }
